@@ -1,7 +1,8 @@
 //import { Checkbox } from '@react-native-community/checkbox';
 import React, { useState } from 'react';
-import { SafeAreaView,View,Image, Text, TextInput, TouchableOpacity, StyleSheet, StatusBar, Alert,  } from 'react-native';
+import { SafeAreaView,View,Image, Text, TextInput, TouchableOpacity, StyleSheet, StatusBar, Alert } from 'react-native';
 //import CheckBox from '@react-native-community/checkbox';
+import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 import { FontAwesome, Ionicons, AntDesign } from '@expo/vector-icons';
 import CheckBox from 'expo-checkbox';
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
 
   return (
     <SafeAreaView style={styles.container}>
+
       <StatusBar barStyle="dark-content" />
       
       
